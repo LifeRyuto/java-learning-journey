@@ -6,7 +6,7 @@ public class FileWriterExceptionHandling1 {
 	public static void main(String[] args) {
 	    FileWriter fw = null;
 	    try {
-	      fw = new FileWriter("FileWriterExceptionHandling1", true);
+	      fw = new FileWriter("FileWriterExceptionHandling1.txt", true);
 	      fw.write('A');
 	      fw.flush();
 	    } catch (IOException e) {
