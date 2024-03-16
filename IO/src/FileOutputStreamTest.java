@@ -10,5 +10,9 @@ public class FileOutputStreamTest {
 		fos.flush();
 		fos.close();
 	}
-	//The file has 'A'
+	/*
+	 * The file has 'A'
+	 * ryuto@ryutomac IO % xxd -b FileOutputStreamTest.txt
+	 * 00000000: 01000001  
+	 */
 }
